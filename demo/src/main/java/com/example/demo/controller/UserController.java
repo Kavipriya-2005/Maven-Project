@@ -18,7 +18,6 @@ public class UserController {
     public String submitForm(@ModelAttribute User user, Model model) {
         model.addAttribute("message", "Registration Successful for " + user.getName());
         System.out.println("User Registered: " + user.getName());  // ✅ Extra line added
-        System.out.println("User Registered twice: " + user.getName());  // ✅ Extra line added
 
         return "success";
     }
