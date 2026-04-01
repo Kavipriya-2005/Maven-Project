@@ -19,7 +19,6 @@ public class UserController {
         model.addAttribute("message", "Registration Successful for " + user.getName());
         System.out.println("User Registered: " + user.getName());  
                 System.out.println("User Registered twice: " + user.getName()); 
-                        System.out.println("User Registered thrice: " + user.getName()); 
 
         // ✅ Extra line added
 // ✅ Extra line added
